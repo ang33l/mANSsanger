@@ -1,0 +1,28 @@
+{ 
+    "userid": {
+        "type": "employee|admin",
+        "tokens": [
+            "token1",
+            "token2"
+        ],
+        "settings": {
+            "push": true,
+            "sms": true,
+            "email": true
+        },
+        "notifications": {
+            "0": {
+                "date": "timestamp",
+                "enabled": true,
+                "readingDate": "timestamp",
+                "topic": "Notification topic"
+            },
+            "1": {
+                "date": "timestamp",
+                "enabled": true,
+                "readingDate": "timestamp",
+                "topic": "Notification topic"
+            }
+        }
+    }
+}
